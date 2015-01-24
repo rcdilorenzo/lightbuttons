@@ -3,10 +3,13 @@ lightstrap-buttons
 
 Simple outline-to-solid CSS buttons
 
+![Normal](img/normal.png)
+![Hover State](img/hover.png)
+
 # Install
 
 ```
-bower install lightstrap-buttons
+bower install lightstrap-buttons --save
 ```
 
 # Usage
