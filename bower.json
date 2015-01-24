@@ -1,0 +1,15 @@
+{
+  "name": "lightstrap-buttons",
+  "version": "0.0.1",
+  "authors": [
+    "Christian Di Lorenzo <rcdilorenzo@me.com>"
+  ],
+  "description": "Simple outline-to-solid CSS buttons",
+  "main": "css/lightstrap-buttons.css",
+  "keywords": [
+    "css",
+    "sass",
+    "buttons"
+  ],
+  "license": "MIT"
+}

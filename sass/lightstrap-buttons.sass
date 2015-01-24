@@ -1,0 +1,55 @@
+$turquoise: #1ABC9C
+$emerald: #2ECC71
+$peter-river: #3498DB
+$amethyst: #9B59B6
+$wet-asphalt: #34495E
+
+$sun-flower: #F1C40F
+$carrot: #E67E22
+$alizarin: #E74C3C
+$clouds: #ECF0F1
+$concrete: #95A5A6
+
+
+$lb-padding: 10px 15px
+
+@mixin lb-btn-color($color)
+  border-color: $color
+  color: $color
+  transition: all 0.2s
+  &:hover
+    color: white
+    background-color: $color
+  &:active
+    background-color: darken($color, 10%)
+    border-color: darken($color, 10%)
+
+.lb-btn
+  font-size: 12pt
+  background: none
+  padding: $lb-padding
+  border: 1.5px solid black
+  border-radius: 5px
+  &:hover
+    cursor: pointer
+
+  &.lb-turquoise
+    @include lb-btn-color($turquoise)
+  &.lb-emerald
+    @include lb-btn-color($emerald)
+  &.lb-peter-river
+    @include lb-btn-color($peter-river)
+  &.lb-amethyst
+    @include lb-btn-color($amethyst)
+  &.lb-wet-asphalt
+    @include lb-btn-color($wet-asphalt)
+  &.lb-sun-flower
+    @include lb-btn-color($sun-flower)
+  &.lb-carrot
+    @include lb-btn-color($carrot)
+  &.lb-alizarin
+    @include lb-btn-color($alizarin)
+  &.lb-clouds
+    @include lb-btn-color($clouds)
+  &.lb-concrete
+    @include lb-btn-color($concrete)
