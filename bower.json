@@ -11,5 +11,6 @@
     "sass",
     "buttons"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "homepage": "https://github.com/rcdilorenzo/lightbuttons"
 }
